@@ -1,6 +1,10 @@
 <form method="post" action="index.php">
-    Name: <input type="text" name="name"><br>
-    Nachricht: <textarea name="nachricht"></textarea><br>
+    Name: <label>
+        <input type="text" name="name">
+    </label><br>
+    Nachricht: <label>
+        <textarea name="nachricht"></textarea>
+    </label><br>
     <input type="submit" value="Abschicken">
 </form>
 
